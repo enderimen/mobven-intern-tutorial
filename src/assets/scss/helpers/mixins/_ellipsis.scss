@@ -1,0 +1,13 @@
+@mixin ellipsis($truncaiton-bounding) {
+    max-width: $truncaiton-bounding;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin flex($flex-direction, $align, $justify) {
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $align;
+    justify-content: $justify;
+}
